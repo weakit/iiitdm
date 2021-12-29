@@ -1,2 +1,0 @@
-# iiitdm
-School Assigments
