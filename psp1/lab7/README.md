@@ -3,7 +3,7 @@
 ### TA Programs 
 
 1. Write a C program that reads n integers from the range 
-   1 to n-1 (n-1 numbers are distinct) and find the duplicate number.
+   1 to n-1 (n-1 numbers are distinct) and find the duplicate number.  
    Find the sum of integers in the array and use the 
    formula n(n+1)/2.
 
@@ -20,4 +20,9 @@
    Write a C program to convert a binary number to a decimal number.
 
 > Convert here means "to represent as".
+
+### Additional Programs
+
+1. `toHexadecimal.c`
+   Write a C program to convert a decimal number to Hexadecimal.
 
