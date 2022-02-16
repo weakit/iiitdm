@@ -11,7 +11,7 @@ int main() {
     scanf("%c", &c);
 
     while (c != '\n') {
-        
+
         // ignore characters that are not 0 or 1.
         if (c == '1') {
             n <<= 1;
