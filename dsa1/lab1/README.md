@@ -10,7 +10,7 @@
 2. `palindrome.c`  
    Write a program to check if a given string is pallindrome or not.
 
-3. `student.c`
+3. `student.c`  
    Create a structure for a student database having different variables,
    such as student_name, age, roll_no and address. Use this structure
    in your program to store the infomration about you and then print it
