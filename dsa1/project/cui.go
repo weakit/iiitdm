@@ -2,26 +2,24 @@ package main
 
 import (
 	"fmt"
-	"github.com/charmbracelet/bubbles/list"
-	tea "github.com/charmbracelet/bubbletea"
 	"math"
 	"strings"
 	"time"
+
+	tea "github.com/charmbracelet/bubbletea"
 )
 
 type model struct {
-	clipboard            *Clipboard
-	currentLoc           int
-	optionsSize          int
-	cursor               int
-	selected             int
-	windowHeight         int
-	menu                 string
-	renderedList         string
-	exportFilename       string
-	saidHi               bool
-	statusBeingDisplayed bool
-	list                 list.Model
+	clipboard      *Clipboard
+	currentLoc     int
+	optionsSize    int
+	cursor         int
+	selected       int
+	windowHeight   int
+	menu           string
+	renderedList   string
+	exportFilename string
+	saidHi         bool
 }
 
 var historyMenuSize = 5

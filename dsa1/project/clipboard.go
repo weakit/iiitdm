@@ -4,9 +4,10 @@ import (
 	"Clippy/LinkedList"
 	"context"
 	"fmt"
-	"golang.design/x/clipboard"
 	"os"
 	"time"
+
+	"golang.design/x/clipboard"
 )
 
 type Clipboard struct {
@@ -46,10 +47,7 @@ func ListenToClipboard(ctx context.Context, clipboard *Clipboard) {
 func ExportClipboardHistory(clipboard *Clipboard) string {
 	filename := fmt.Sprintf("history-%d.txt", time.Now().Unix())
 	f, err := os.Create(filename)
-
-	if err != nil {
-		panic(err)
-	}
+	Pacman(err)
 
 	clipboard.History.Traverse(func(s *string, index int) {
 		_, err := f.WriteString(*s + "\n\n--\n\n")
@@ -59,11 +57,7 @@ func ExportClipboardHistory(clipboard *Clipboard) string {
 		}
 	})
 
-	err = f.Close()
-
-	if err != nil {
-		panic(err)
-	}
+	Pacman(f.Close())
 
 	return filename
 }
