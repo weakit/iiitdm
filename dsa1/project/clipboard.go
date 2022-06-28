@@ -1,7 +1,6 @@
 package main
 
 import (
-	"Clippy/LinkedList"
 	"context"
 	"fmt"
 	"os"
@@ -12,7 +11,7 @@ import (
 
 type Clipboard struct {
 	watch   <-chan []byte
-	History LinkedList.List[string]
+	History List[string]
 	CopyAt  func(int)
 }
 
@@ -22,7 +21,7 @@ func InitClipboard(ctx context.Context) *Clipboard {
 
 	cb := Clipboard{
 		watch:   clipboard.Watch(ctx, clipboard.FmtText),
-		History: LinkedList.CreateList[string](),
+		History: CreateList[string](),
 	}
 
 	copyAt := func(i int) {

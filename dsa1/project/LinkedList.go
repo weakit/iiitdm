@@ -1,4 +1,4 @@
-package LinkedList
+package main
 
 type ListNode[T any] struct {
 	val  T

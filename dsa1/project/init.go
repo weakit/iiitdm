@@ -1,7 +1,6 @@
 package main
 
 import (
-	"Clippy/LinkedList"
 	"context"
 	"fmt"
 )
@@ -15,7 +14,7 @@ func Pacman(err error) {
 func main() {
 	// create contexts
 	bCtx := context.Background()
-	ctx := context.WithValue(bCtx, "list", LinkedList.CreateList[string]())
+	ctx := context.WithValue(bCtx, "list", CreateList[string]())
 
 	// initialize clipboard library
 	clipboard := InitClipboard(ctx)
