@@ -5,8 +5,10 @@
 .vscode/
 /.vscode
 
-# cache
+# cache/debug
 __pycache__/
+cmake-build-debug/
+cmake-build-debug-event-trace/
 
 # common binaries
 a.out
