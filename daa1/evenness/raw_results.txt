@@ -1,0 +1,167 @@
+Testing with 100000 test cases.
+Maximum integer size 1000.0
+
+Bitwise AND: 99.956ns
+Modulus: 79.985ns
+Repeated Subtraction: 9880.423ns
+Power of -1: 289.977ns
+Last digit check: 109.995ns
+Sin check: 220.013ns
+GCD: 130.002ns
+LCM: 189.987ns
+Bitwise OR: 109.614ns
+Prime factorization: 1990.015ns
+Power of 7: 29840.523ns
+
+Finished in 4.294049s
+
+Testing with 50000 test cases.
+Maximum integer size 10000.0
+
+Bitwise AND: 99.996ns
+Modulus: 100.096ns
+Repeated Subtraction: 118440.118ns
+Power of -1: 379.908ns
+Last digit check: 139.974ns
+Sin check: 280.07ns
+GCD: 159.724ns
+LCM: 240.078ns
+Bitwise OR: 179.998ns
+Prime factorization: 4919.132ns
+Power of 7: 348320.82ns
+
+Finished in 23.6629957s
+
+Testing with 10000 test cases.
+Maximum integer size 100000.0
+
+Bitwise AND: 99.75ns
+Modulus: 100.38ns
+Repeated Subtraction: 1121199.91ns
+Power of -1: 300.38ns
+Last digit check: 199.68ns
+Sin check: 200.27ns
+GCD: 199.9ns
+LCM: 199.75ns
+Bitwise OR: 99.7ns
+Prime factorization: 7296.21ns
+Power of 7: 3408199.96ns
+
+Finished in 45.3809589s
+
+Testing with 100000 test cases.
+Maximum integer size 100000000.0
+
+Bitwise AND: 110.001ns
+Modulus: 100.013ns
+Power of -1: 470.046ns
+Last digit check: 139.986ns
+Sin check: 289.994ns
+GCD: 150.002ns
+LCM: 240.003ns
+Bitwise OR: 139.998ns
+Prime factorization: 119449.988ns
+
+Finished in 12.1090031s
+
+Testing with 1000000 test cases.
+Maximum integer size 10000000000.0
+
+Bitwise AND: 98.0004ns
+Modulus: 104.996ns
+Power of -1: 500.0016ns
+Last digit check: 129.0063ns
+Sin check: 260.9921ns
+GCD: 150.9998ns
+LCM: 257.0014ns
+Bitwise OR: 135.9553ns
+
+Finished in 1.6389566s
+
+Testing with 1000000 test cases.
+Maximum integer size 1000000000000.0
+
+Bitwise AND: 96.9978ns
+Modulus: 106.9994ns
+Power of -1: 587.0031ns
+Last digit check: 124.9566ns
+Sin check: 260.0411ns
+GCD: 149.9602ns
+LCM: 253.9993ns
+Bitwise OR: 127.0449ns
+
+Finished in 1.7070024s
+
+Testing with 1000000 test cases.
+Maximum integer size 100000000000000.0
+
+Bitwise AND: 124.9938ns
+Modulus: 130.9973ns
+Power of -1: 711.0043ns
+Last digit check: 145.0021ns
+Sin check: 303.9521ns
+GCD: 177.0004ns
+LCM: 292.0447ns
+Bitwise OR: 142.9992ns
+
+Finished in 2.0279939s
+
+Testing with 1000000 test cases.
+Maximum integer size 1e+16
+
+Bitwise AND: 112.9953ns
+Modulus: 124.9978ns
+Power of -1: 759.0008ns
+Last digit check: 147.9599ns
+Sin check: 315.0038ns
+GCD: 176.9959ns
+LCM: 294.0484ns
+Bitwise OR: 142.9973ns
+
+Finished in 2.0739992s
+
+Testing with 1000000 test cases.
+Maximum integer size 1e+18
+
+Bitwise AND: 114.0034ns
+Modulus: 125.9816ns
+Power of -1: 787.0175ns
+Last digit check: 142.9982ns
+Sin check: 313.002ns
+GCD: 177.998ns
+LCM: 298.0008ns
+Bitwise OR: 141.001ns
+
+Finished in 2.1000025s
+
+Testing with 1000000 test cases.
+Maximum integer size 1e+20
+
+Bitwise AND: 115.9981ns
+Modulus: 134.9945ns
+Power of -1: 982.0076ns
+Last digit check: 148.9977ns
+Sin check: 314.9585ns
+GCD: 206.0007ns
+LCM: 323.9995ns
+Bitwise OR: 145.0417ns
+
+Finished in 2.3719983s
+
+Testing with 10000000 test cases.
+Maximum integer size 100000.0
+
+Bitwise AND: 102.047ns
+Modulus: 85.04181ns
+Bitwise OR: 115.09855ns
+
+Finished in 3.0218736s
+
+Testing with 10000000 test cases.
+Maximum integer size 10000000000.0
+
+Bitwise AND: 94.00438ns
+Modulus: 111.44065ns
+Bitwise OR: 126.77595ns
+
+Finished in 3.3222098s
